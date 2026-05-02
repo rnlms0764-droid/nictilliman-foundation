@@ -5,20 +5,20 @@
 
 /* CSS Variables */
 :root {
-    --color-primary: #2563eb;
-    --color-primary-dark: #1d4ed8;
-    --color-primary-light: #3b82f6;
-    --color-secondary: #059669;
-    --color-accent: #f59e0b;
+    --color-primary: #1e3a5f;
+    --color-primary-dark: #0f1f33;
+    --color-primary-light: #2d4a6f;
+    --color-secondary: #c9a227;
+    --color-accent: #b8860b;
     --color-text: #1f2937;
-    --color-text-light: #6b7280;
-    --color-text-muted: #9ca3af;
+    --color-text-light: #4a5568;
+    --color-text-muted: #718096;
     --color-bg: #ffffff;
-    --color-bg-light: #f9fafb;
-    --color-bg-warm: #fffbeb;
-    --color-border: #e5e7eb;
-    --color-success: #10b981;
-    --color-error: #ef4444;
+    --color-bg-light: #f7f9fc;
+    --color-bg-warm: #fefcf7;
+    --color-border: #e2e8f0;
+    --color-success: #059669;
+    --color-error: #dc2626;
     
     --font-heading: 'Playfair Display', Georgia, serif;
     --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -152,7 +152,7 @@ p { margin-bottom: 1rem; }
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1e3a5f 0%, #0f1f33 100%);
     color: white;
     padding: 6rem 0 4rem;
     overflow: hidden;
@@ -169,7 +169,7 @@ p { margin-bottom: 1rem; }
     margin-bottom: 1.5rem;
 }
 .hero h1 { color: white; margin-bottom: 1.5rem; max-width: 700px; }
-.hero .highlight { color: #fde68a; }
+.hero .highlight { color: #c9a227; }
 .hero-subtitle { font-size: 1.25rem; color: rgba(255, 255, 255, 0.9); max-width: 600px; margin-bottom: 2rem; }
 .hero-cta { display: flex; flex-wrap: wrap; gap: 1rem; }
 .hero-pattern {
@@ -252,7 +252,7 @@ p { margin-bottom: 1rem; }
 /* CTA Section */
 .cta-section { padding: 5rem 0; }
 .cta-box {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1e3a5f 0%, #0f1f33 100%);
     border-radius: var(--radius-xl);
     padding: 3rem;
     text-align: center;
@@ -285,7 +285,7 @@ p { margin-bottom: 1rem; }
 .nonprofit-note { font-size: 0.875rem; color: var(--color-text-muted); margin-top: 0.5rem; }
 
 /* Page Header */
-.page-header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 8rem 0 3rem; text-align: center; }
+.page-header { background: linear-gradient(135deg, #1e3a5f 0%, #0f1f33 100%); color: white; padding: 8rem 0 3rem; text-align: center; }
 .page-header h1 { color: white; margin-bottom: 0.5rem; }
 .breadcrumb { color: rgba(255, 255, 255, 0.8); }
 .breadcrumb a { color: rgba(255, 255, 255, 0.8); }
