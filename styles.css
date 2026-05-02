@@ -159,6 +159,11 @@ p { margin-bottom: 1rem; }
     overflow: hidden;
 }
 .hero-content { position: relative; z-index: 2; }
+.hero-container { display: flex; align-items: center; justify-content: space-between; gap: 3rem; }
+.hero-text { flex: 1; }
+.hero-logo-large { display: none; }
+.hero-logo-large img { width: 300px; height: 300px; border-radius: 50%; object-fit: cover; box-shadow: 0 20px 40px rgba(0,0,0,0.3); }
+@media (min-width: 992px) { .hero-logo-large { display: block; } }
 .hero .badge {
     display: inline-block;
     background: rgba(255, 255, 255, 0.2);
